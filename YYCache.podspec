@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   
   s.libraries = 'sqlite3'
   s.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore' 
-  s.ios.vendored_framework   = 'ios/YYCache.framework'
+  s.ios.vendored_framework   = 'YYCache.framework'
 
 end
