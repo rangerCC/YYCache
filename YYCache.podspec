@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'git@github.com:rangerCC/YYCache.git', :tag => s.version.to_s }
   
   s.requires_arc = true
-  s.source_files = 'YYCache/*.{h,m}'
   s.public_header_files = 'YYCache/*.{h}'
   
   s.libraries = 'sqlite3'
